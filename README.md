@@ -42,7 +42,7 @@ Designed for efficiency, it processes all data locally on the device, ensuring p
 ### Installation
 1.  **Clone the repo:**
     ```bash
-    git clone [https://github.com/YourUsername/StepPulse.git](https://github.com/YourUsername/StepPulse.git)
+    git clone https://github.com/YourUsername/StepPulse.git
     ```
 2.  **Sync Gradle:**
     * Open the project in Android Studio.
@@ -57,7 +57,9 @@ Designed for efficiency, it processes all data locally on the device, ensuring p
 
 | Activity Dashboard | BMI Calculator |
 |:---:|:---:|
-| *(Add Screenshot)* | *(Add Screenshot)* |
+| ![ss1](https://github.com/user-attachments/assets/1247416b-8829-42a6-84a8-d6b176344eab)
+ | ![ss2](https://github.com/user-attachments/assets/eb49d6ee-e549-4dd2-ba29-30e95e395f98)
+ |
 
 ---
 
