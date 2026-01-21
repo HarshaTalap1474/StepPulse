@@ -12,6 +12,7 @@ import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
 import android.os.Build;
 import android.os.Bundle;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -47,6 +48,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
     private SensorManager sensorManager;
     private Sensor stepSensor;
     private boolean isSensorPresent = false;
+    private ImageView ivProfile; // Add this
 
     // --- Data Variables ---
     private int stepCount = 0;
@@ -113,6 +115,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         // Chips
         chipWeek = findViewById(R.id.chip_week);
         chipMonth = findViewById(R.id.chip_month);
+        ivProfile = findViewById(R.id.iv_profile);
     }
 
     private void initSensor() {
@@ -143,6 +146,12 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         btnOpenBMI.setOnClickListener(v -> {
             Intent intent = new Intent(MainActivity.this, BMIActivity.class);
             startActivity(intent);
+        });
+
+        ivProfile.setOnClickListener(v -> {
+            Toast.makeText(MainActivity.this, "Welcome User 1\nNew activity for profile is coming soon", Toast.LENGTH_SHORT).show();
+            // Or open a new Activity:
+            // startActivity(new Intent(MainActivity.this, ProfileActivity.class));
         });
 
         // Placeholder logic for chips (since we don't have a DB yet)

@@ -53,8 +53,10 @@
                     android:layout_width="48dp"
                     android:layout_height="48dp"
                     android:src="@drawable/ic_person"
-                    android:background="@drawable/bg_profile_circle"
+                    android:background="?attr/selectableItemBackgroundBorderless"
                     android:padding="10dp"
+                    android:clickable="true"
+                    android:focusable="true"
                     android:contentDescription="Profile"/>
             </LinearLayout>
 
