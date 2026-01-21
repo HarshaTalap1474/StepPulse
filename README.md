@@ -57,9 +57,9 @@ Designed for efficiency, it processes all data locally on the device, ensuring p
 
 | Activity Dashboard | BMI Calculator |
 |:---:|:---:|
-| ![ss1](https://github.com/user-attachments/assets/1247416b-8829-42a6-84a8-d6b176344eab)
- | ![ss2](https://github.com/user-attachments/assets/eb49d6ee-e549-4dd2-ba29-30e95e395f98)
- |
+|![ss_home](https://github.com/user-attachments/assets/5b56e085-6e60-44d6-bd60-c443dce3e8c8)
+|![ss_bmi](https://github.com/user-attachments/assets/2b1e7a5a-3949-4385-b656-6454e236a3f4)
+|
 
 ---
 
